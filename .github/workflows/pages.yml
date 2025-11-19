@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["claude/add-project-conversation-01TYzCme5HGx9feaCvq4pQ3U"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
