@@ -19,7 +19,7 @@ This project analyzes the correlation between workforce reductions at major tech
   - March 2025: "Massive cyber attack" causing sporadic outages
 
 ### Meta (Facebook, Instagram, WhatsApp)
-- **21,000 employees laid off** (November 2022: 11,000; March 2023: 10,000)
+- **21,000 employees laid off** (~24% of workforce: November 2022: 11,000; March 2023: 10,000)
 - **150% increase** in service disruptions
 - Major incidents:
   - March 2024: ~570,000 Facebook users and 90,000 Instagram users affected
