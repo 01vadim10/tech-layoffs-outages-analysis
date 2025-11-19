@@ -37,9 +37,10 @@ This document provides detailed sources for all data points used in the Tech Lay
 
 ## Meta (Facebook, Instagram, WhatsApp) Data
 
-### Layoffs (21,000 Total)
+### Layoffs (21,000 Total - ~24% of Workforce)
 
 **November 2022**: Meta laid off 11,000 employees (13% of workforce)
+- Meta had approximately 87,000 employees globally before layoffs
 - [Meta Investor Relations: Mark Zuckerberg memo on layoffs](https://investor.fb.com/home/default.aspx)
 - [The Verge: Meta lays off 11,000 employees](https://www.theverge.com/2022/11/9/23446956/meta-layoffs-facebook-mark-zuckerberg)
 
@@ -47,7 +48,7 @@ This document provides detailed sources for all data points used in the Tech Lay
 - [CNBC: Meta announces another 10,000 layoffs](https://www.cnbc.com/2023/03/14/meta-announces-another-10000-job-cuts.html)
 - [Reuters: Meta to cut 10,000 more jobs](https://www.reuters.com/technology/meta-cut-10000-jobs-second-round-layoffs-2023-03-14/)
 
-**Total**: Approximately 21,000 people lost their jobs at Meta between November 2022 and March 2023
+**Total**: Approximately 21,000 people (24% of total workforce) lost their jobs at Meta between November 2022 and March 2023
 
 **Source URLs:**
 - [Meta SEC Form 8-K filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=8-K)
@@ -95,9 +96,11 @@ Multiple reports of increased Search, YouTube, and Cloud service disruptions in 
 
 ## Amazon Data
 
-### Layoffs
+### Layoffs (27,000 Total - ~2% of Workforce)
 - Multiple rounds in 2022-2023
 - Affected AWS and retail divisions
+- Amazon had approximately 1.5 million employees globally before layoffs
+- Total layoffs represented about 2% of total workforce
 - [CNBC: Amazon to lay off over 18,000 employees](https://www.cnbc.com/2023/01/04/amazon-to-lay-off-over-18000-employees.html)
 - [The Verge: Amazon layoffs tracker](https://www.theverge.com/2023/1/4/23538411/amazon-layoffs-18000-employees-workforce-reduction)
 - [Reuters: Amazon layoffs exceed 27,000 workers](https://www.reuters.com/technology/amazon-lay-off-over-17000-workers-2023-01-04/)
@@ -113,8 +116,10 @@ Multiple reports of increased Search, YouTube, and Cloud service disruptions in 
 
 ## Microsoft Data
 
-### Layoffs
+### Layoffs (10,000 Total - ~5% of Workforce)
 - Multiple rounds affecting Azure, Xbox, and other divisions
+- Microsoft had approximately 220,000 employees globally before layoffs
+- Total layoffs represented about 5% of total workforce
 - [TechCrunch: Microsoft lays off 10,000 workers](https://techcrunch.com/2023/01/18/microsoft-lays-off-10000-workers/)
 - [CNBC: Microsoft announces 10,000 job cuts](https://www.cnbc.com/2023/01/18/microsoft-announces-10000-job-cuts.html)
 - [The Verge: Microsoft layoffs coverage](https://www.theverge.com/2023/1/18/23560315/microsoft-job-cuts-layoffs-2023-tech)
