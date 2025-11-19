@@ -2,6 +2,8 @@
 
 An interactive data visualization exploring the relationship between mass layoffs at major tech companies and subsequent increases in service outages and incidents.
 
+**[🔗 View Live Demo](https://01vadim10.github.io/tech-layoffs-outages-analysis/)**
+
 ## 📊 Overview
 
 This project analyzes the correlation between workforce reductions at major technology companies (Twitter/X, Meta, Google, Amazon, Microsoft) and the frequency of major outages and service incidents that followed. The analysis covers the period from 2022-2025, a time of significant industry-wide layoffs.
