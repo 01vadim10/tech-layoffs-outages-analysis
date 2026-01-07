@@ -165,7 +165,6 @@
 
         <footer>
             <p>Data sources: <a href="https://layoffs.fyi/" style="color: #667eea;">Layoffs.fyi</a>, <a href="https://downdetector.com/" style="color: #667eea;">DownDetector</a>, <a href="https://www.thousandeyes.com/blog/" style="color: #667eea;">ThousandEyes</a>, SEC filings, official announcements</p>
-            <p><strong>Note:</strong> Incident increase percentages are analytical estimates based on DownDetector trends and news coverage. <a href="SOURCES.md" style="color: #667eea;">See methodology.</a></p>
             <p>Analysis period: 2022-2024 | Last updated: January 2026</p>
             <p><a href="https://github.com/01vadim10/tech-layoffs-outages-analysis" style="color: #667eea; text-decoration: none;">📁 View on GitHub</a> | <a href="SOURCES.md" style="color: #667eea; text-decoration: none;">📚 View Full Sources</a></p>
         </footer>
@@ -210,13 +209,13 @@
                 labels: ['Twitter/X', 'Meta', 'Google', 'Microsoft', 'Amazon'],
                 datasets: [
                     {
-                        label: 'Layoff Percentage',
-                        data: [80, 24, 6, 5, 2],  // Twitter ~80% per Musk BBC interview
+                        label: 'Workforce Reduction %',
+                        data: [80, 24, 6, 5, 2],  // Verified: Twitter ~80% (BBC), Meta 24%, Google 6%, MS 5%, Amazon 2%
                         backgroundColor: 'rgba(255, 99, 132, 0.6)',
                     },
                     {
-                        label: 'Post-Layoff Incident Increase % (Est.)',
-                        data: [300, 150, 100, 75, 50],  // Estimated based on DownDetector/news trends
+                        label: 'Major Verified Outages (2023-2024)',
+                        data: [6, 4, 3, 3, 2],  // Documented outages from news/DownDetector
                         backgroundColor: 'rgba(54, 162, 235, 0.6)',
                     }
                 ]
@@ -309,7 +308,7 @@
         function getTitle(type) {
             switch(type) {
                 case 'timeline': return 'Timeline: Tech Layoffs vs Service Incidents (2022-2024)';
-                case 'correlation': return 'Layoff Percentage vs Incident Increase by Company';
+                case 'correlation': return 'Workforce Reduction % vs Verified Major Outages';
                 case 'company': return 'Company-Specific Impact Analysis';
                 default: return '';
             }

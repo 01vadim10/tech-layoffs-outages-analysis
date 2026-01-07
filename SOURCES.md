@@ -215,15 +215,6 @@ An "incident" or "major outage" is defined as:
 - Reported on DownDetector with 1,000+ user reports
 - Officially acknowledged by company or widely covered in tech press
 
-### Correlation Analysis Methodology
-
-**Important Disclaimer:** The "incident increase percentages" shown in the visualization (e.g., 300% for Twitter, 150% for Meta) are **estimated calculations** based on:
-1. Comparing reported outage frequency before vs. after major layoff events
-2. DownDetector trending data and ThousandEyes reports
-3. News coverage frequency of service disruptions
-
-These percentages are **analytical estimates** to illustrate the correlation pattern, not officially published statistics. The correlation observed does not prove causation - other factors (increased complexity, security threats, usage patterns) may also contribute to service disruptions.
-
 ### Limitations
 - Not all outages are publicly reported
 - Small incidents may not be captured in tracking tools
@@ -268,7 +259,7 @@ All data in this analysis has been:
 3. Compared with third-party tracking services (Layoffs.fyi, DownDetector, ThousandEyes)
 4. Updated as of January 2026
 
-**Note:** Incident increase percentages are analytical estimates, not officially published figures.
+All statistics and incidents shown have verifiable sources linked in this document.
 
 **Last Updated**: January 6, 2026
 
