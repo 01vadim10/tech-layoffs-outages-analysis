@@ -164,21 +164,24 @@
         </div>
 
         <footer>
-            <p>Data sources: Company SEC filings, DownDetector, official announcements, tech news outlets</p>
-            <p>Analysis period: 2022-2025 | Last updated: November 2025</p>
-            <p><a href="https://github.com/01vadim10/tech-layoffs-outages-analysis" style="color: #667eea; text-decoration: none;">📁 View on GitHub</a> | <a href="SOURCES.md" style="color: #667eea; text-decoration: none;">📚 View Sources</a></p>
+            <p>Data sources: <a href="https://layoffs.fyi/" style="color: #667eea;">Layoffs.fyi</a>, <a href="https://downdetector.com/" style="color: #667eea;">DownDetector</a>, <a href="https://www.thousandeyes.com/blog/" style="color: #667eea;">ThousandEyes</a>, SEC filings, official announcements</p>
+            <p><strong>Note:</strong> Incident increase percentages are analytical estimates based on DownDetector trends and news coverage. <a href="SOURCES.md" style="color: #667eea;">See methodology.</a></p>
+            <p>Analysis period: 2022-2024 | Last updated: January 2026</p>
+            <p><a href="https://github.com/01vadim10/tech-layoffs-outages-analysis" style="color: #667eea; text-decoration: none;">📁 View on GitHub</a> | <a href="SOURCES.md" style="color: #667eea; text-decoration: none;">📚 View Full Sources</a></p>
         </footer>
     </div>
 
     <script>
         // Comprehensive data structure with real incidents
+        // Layoff data sourced from Layoffs.fyi (verified January 2026)
+        // 2022: 122,549 | 2023: 264,320 | 2024: 152,922 | Total: 539,791
         const data = {
             timeline: {
                 labels: ['Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024'],
                 datasets: [
                     {
                         label: 'Cumulative Layoffs (thousands)',
-                        data: [5, 15, 35, 80, 165, 195, 210, 220, 245, 260, 270, 285],
+                        data: [5, 20, 45, 122, 222, 302, 347, 387, 442, 482, 512, 540],
                         borderColor: 'rgb(255, 99, 132)',
                         backgroundColor: 'rgba(255, 99, 132, 0.1)',
                         yAxisID: 'y',
@@ -208,12 +211,12 @@
                 datasets: [
                     {
                         label: 'Layoff Percentage',
-                        data: [75, 24, 6, 5, 2],
+                        data: [80, 24, 6, 5, 2],  // Twitter ~80% per Musk BBC interview
                         backgroundColor: 'rgba(255, 99, 132, 0.6)',
                     },
                     {
-                        label: 'Post-Layoff Incident Increase %',
-                        data: [300, 150, 100, 75, 50],
+                        label: 'Post-Layoff Incident Increase % (Est.)',
+                        data: [300, 150, 100, 75, 50],  // Estimated based on DownDetector/news trends
                         backgroundColor: 'rgba(54, 162, 235, 0.6)',
                     }
                 ]
@@ -240,14 +243,14 @@
             }
         };
 
-        // Specific incidents for annotation
+        // Specific incidents for annotation (verified with sources)
         const majorIncidents = [
-            { quarter: 'Q4 2022', company: 'Twitter', incident: 'Multiple outages post-75% layoffs' },
-            { quarter: 'Q1 2023', company: 'Meta', incident: 'WhatsApp global outage' },
-            { quarter: 'Q2 2023', company: 'AWS', incident: 'US-East-1 major failure' },
-            { quarter: 'Q3 2023', company: 'Twitter/X', incident: '12+ hour global outage' },
-            { quarter: 'Q1 2024', company: 'Meta', incident: 'Facebook/Instagram down 6 hours' },
-            { quarter: 'Q2 2024', company: 'Microsoft', incident: 'Azure AD authentication failure' }
+            { quarter: 'Q4 2022', company: 'Twitter', incident: 'Multiple outages post-80% layoffs' },
+            { quarter: 'Q1 2023', company: 'Google', incident: 'GCP partial outage (Feb) - config error' },
+            { quarter: 'Q2 2023', company: 'AWS', incident: 'US-East-1 failure (Jun 13) - 104+ services' },
+            { quarter: 'Q3 2023', company: 'Twitter/X', incident: 'Rate limits (Jul) + global outage (Dec)' },
+            { quarter: 'Q1 2024', company: 'Meta', incident: 'FB/IG down 2hrs, 570K+ users (Mar 5)' },
+            { quarter: 'Q2 2024', company: 'Microsoft', incident: 'Azure MFA/DDoS outage (Jul 30)' }
         ];
 
         let currentChart = null;
