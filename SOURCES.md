@@ -43,6 +43,28 @@ This document provides detailed sources for all data points used in the Tech Lay
 
 **Context:** According to NetBlocks, Twitter experienced at least four widespread outages in February 2023 alone, compared to nine service disruptions for all of 2022.
 
+### 2025 Twitter/X Outages
+
+**March 10, 2025 - "Massive Cyberattack":**
+- Three separate outages in one day
+- First: 5:30 AM ET, ~1 hour
+- Second: 9:30 AM ET, 40,000 reports, ~1 hour
+- Third: 11:15 AM ET, 35,000+ reports, 2+ hours
+- Musk claimed attack with "IP addresses originating in the Ukraine area"
+- Dark Storm Team claimed responsibility (unverified)
+- [Variety: Why Did X Go Down? Musk Says Outage Caused by 'Massive Cyberattack'](https://variety.com/2025/digital/news/elon-musk-x-outage-cause-1236333354/)
+- [NBC News: X sees major outages as Musk claims 'massive cyberattack'](https://www.nbcnews.com/business/business-news/thousands-users-report-issues-accessing-elon-musks-x-platform-rcna195630)
+- [Tom's Guide: X was down - live updates on outage](https://www.tomsguide.com/news/live/x-down-twitter-outage-march-2025)
+
+**May 24, 2025:**
+- 25,000+ US user reports on DownDetector
+- [CGTN: Musk's X down for tens of thousands of U.S. users](https://news.cgtn.com/news/2025-05-24/Musk-s-X-down-for-tens-of-thousands-of-U-S-users-tracker-shows-1DDTf9qkZtC/p.html)
+
+**November 2025 - Cloudflare-Related Outage:**
+- Nearly 3 hours of service disruption
+- Also affected ChatGPT, Shopify, Uber, and other Cloudflare-dependent services
+- [Variety: X Goes Down After Cloudflare Issues](https://variety.com/2025/digital/news/x-twitter-down-outage-cloudflare-1236584433/)
+
 ---
 
 ## Meta (Facebook, Instagram, WhatsApp) Data
@@ -60,7 +82,16 @@ This document provides detailed sources for all data points used in the Tech Lay
 - [CNBC: Meta layoffs - 10,000 more workers to be cut](https://www.cnbc.com/2023/03/14/meta-layoffs-10000-more-workers-to-be-cut-in-restructuring.html)
 - [Variety: Meta to lay off 10,000 more employees](https://variety.com/2023/digital/news/meta-layoffs-10000-more-employees-mark-zuckerberg-1235553578/)
 
-**Total:** ~21,000 employees (~24% of workforce from ~87,000 pre-layoff headcount)
+**Total 2022-2023:** ~21,000 employees (~24% of workforce from ~87,000 pre-layoff headcount)
+
+### 2025 Meta Layoffs
+
+**January 2025:** ~3,600 employees (5% of staff)
+- Focus on "lowest performers"
+- [TechCrunch: A comprehensive list of 2025 tech layoffs](https://techcrunch.com/2025/12/22/tech-layoffs-2025-list/)
+
+**Reality Labs:** 100+ employees in VR/Quest development
+- [TrendForce: 2025 Tech Layoffs](https://www.trendforce.com/news/2025/12/31/news-2025-tech-layoffs-meta-amazon-microsoft-and-others-cut-tens-of-thousands-of-roles)
 
 ### Meta Service Outages (Verified Incidents)
 
@@ -87,6 +118,26 @@ This document provides detailed sources for all data points used in the Tech Lay
 - [CNN: Facebook and Instagram outage](https://www.cnn.com/2024/12/11/business/facebook-and-instagram-outage)
 - [9to5Mac: Instagram, Facebook, WhatsApp, and Threads down](https://9to5mac.com/2024/12/11/instagram-facebook-whatsapp-and-threads-are-currently-down-in-major-meta-outage/)
 - [The Conversation: A Meta outage hit Facebook, Instagram, WhatsApp](https://theconversation.com/a-meta-outage-hit-facebook-instagram-whatsapp-and-more-heres-what-we-know-so-far-245834)
+
+### 2025 Meta Outages
+
+**March 25, 2025:**
+- 550,000+ reports on DownDetector at peak
+- Instagram comments not displaying properly
+- ~60% of reports related to Instagram
+- [Lawyer Monthly: Major Facebook and Instagram Outage Hits Users Nationwide](https://www.lawyer-monthly.com/2025/03/major-facebook-and-instagram-outage-hits-users-nationwide/)
+
+**April 25, 2025:**
+- Duration: ~90 minutes
+- Affected Americas and Europe
+- Partial news feed failures, missing notifications, Marketplace issues
+- Caused by network configuration change during maintenance
+- [DataStudios: Meta AI outages and service interruptions 2025](https://www.datastudios.org/post/meta-ai-outages-and-service-interruptions-latest-reports-and-impact-in-2025)
+
+**June 13, 2025 - Privacy Incident:**
+- Private Meta AI conversations appeared publicly in Discover section
+- Meta initially claimed "by design" then changed UI after backlash
+- [DataStudios: Meta AI outages 2025](https://www.datastudios.org/post/meta-ai-outages-and-service-interruptions-latest-reports-and-impact-in-2025)
 
 ---
 
@@ -118,6 +169,33 @@ This document provides detailed sources for all data points used in the Tech Lay
 - [The Register: Google Cloud suffers outage in Europe](https://www.theregister.com/2023/04/26/google_cloud_outage/)
 - [StatusGator: Google Cloud Outage History](https://statusgator.com/blog/google-cloud-outage-history/)
 
+### 2025 Google Layoffs
+
+**Multiple rounds throughout 2025:** 1,000+ employees total
+- January: 1,000+ (Fitbit, core engineering)
+- February: Cloud and HR divisions
+- April: Hundreds from Android, Pixel, Chrome teams
+- October: 100+ in Cloud design/UX research
+- Also cut 35%+ of small-team managers
+- [TechCrunch: A comprehensive list of 2025 tech layoffs](https://techcrunch.com/2025/12/22/tech-layoffs-2025-list/)
+- [Business Standard: Google lays off hundreds in Android, Pixel, Chrome group](https://www.business-standard.com/technology/tech-news/google-layoffs-android-pixel-chrome-restructuring-voluntary-exit-programme-125041100374_1.html)
+- [The HR Digest: Google cloud layoffs and HR cuts](https://www.thehrdigest.com/google-cloud-layoffs-and-hr-cuts-whats-the-2025-memo-hiding/)
+
+### 2025 Google Cloud Outage - MAJOR INCIDENT
+
+**June 12, 2025 - Catastrophic Outage:**
+- Duration: ~3 hours (10:49 AM - 12:48 PM PDT, some regions 2hr 40min)
+- **76 Google Cloud services affected**
+- Root cause: Null pointer dereference in quota policy check code
+- New feature added in May not tested in production; blank fields crashed Service Control
+- us-central1 region experienced "herd effect" overloading Spanner
+- Affected: Spotify, Fitbit, OpenAI, Shopify, GitLab, Mailchimp, and many others
+- [ThousandEyes: Google Cloud Outage Analysis - June 12, 2025](https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025)
+- [CNBC: Google suffers cloud outage, causing disruptions for OpenAI, Shopify](https://www.cnbc.com/2025/06/12/google-cloud-and-other-internet-services-are-reporting-outages.html)
+- [CNBC: Google issues apology, incident report for hourslong cloud outage](https://www.cnbc.com/2025/06/16/google-cloud-outage-apology.html)
+- [ByteByteGo: How the Google Cloud Outage Crashed the Internet](https://blog.bytebytego.com/p/how-the-google-cloud-outage-crashed)
+- [Google Cloud Service Health](https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW)
+
 ---
 
 ## Amazon Data
@@ -144,6 +222,36 @@ This document provides detailed sources for all data points used in the Tech Lay
 - [AWS Post-Event Summaries](https://aws.amazon.com/premiumsupport/technology/pes/)
 - [Pragmatic Engineer: What caused the large AWS outage?](https://blog.pragmaticengineer.com/aws-outage-us-east-1/)
 - [N2WS: Major AWS Outages](https://n2ws.com/blog/aws-cloud/aws-outage)
+
+### 2025 Amazon Layoffs
+
+**October 2025:** 14,000+ employees (potentially 30,000 total)
+- Largest corporate job cuts in Amazon history
+- ~40% of cuts were engineering roles
+- Affects AWS, HR, retail, grocery, Prime Video, advertising, gaming
+- Part of CEO Jassy's effort to "flatten" organization
+- [CNBC: Amazon laying off about 14,000 corporate workers](https://www.cnbc.com/2025/10/28/amazon-layoffs-corporate-workers-ai.html)
+- [CNN: Amazon just cut 14,000 jobs, and it's not done](https://www.cnn.com/2025/10/28/business/amazon-layoffs)
+- [CNBC: Amazon cut more than 1,800 engineers in record layoffs](https://www.cnbc.com/2025/11/21/amazon-cut-thousands-of-engineers-in-its-record-layoffs-filings-show.html)
+- [CNBC: Amazon upheaval - Jassy looks for next big play after mass layoffs](https://www.cnbc.com/2025/11/05/amazon-upheaval-andy-jassy-looks-for-next-big-play-after-mass-layoffs.html)
+
+### 2025 AWS Outage - CATASTROPHIC INCIDENT
+
+**October 19-20, 2025 - 15-Hour Outage:**
+- **Duration: 15 hours** (longest major AWS outage in years)
+- **Root cause: Race condition in DynamoDB DNS management system**
+- Empty DNS record for dynamodb.us-east-1.amazonaws.com
+- Cascading failure: DynamoDB → EC2 → NLB → Lambda → CloudWatch → 104+ services
+- **Impact:**
+  - 17+ million DownDetector reports (970% spike)
+  - 3,500+ companies affected across 60+ countries
+  - **Estimated $1.1 billion in direct losses**
+  - Affected: Fortnite, Roblox, Snapchat, Signal, Coinbase, Venmo, Ring, McDonald's
+- Timeline: Oct 19 11:48 PM (DNS fail) → Oct 20 2:25 AM (DynamoDB recovered) → Oct 20 2:20 PM (full recovery)
+- [ThousandEyes: AWS Outage Analysis - October 20, 2025](https://www.thousandeyes.com/blog/aws-outage-analysis-october-20-2025)
+- [InfoQ: Race Condition in DynamoDB DNS System](https://www.infoq.com/news/2025/11/aws-dynamodb-outage-postmortem/)
+- [INE: AWS October 2025 Outage - Multi-Region Lessons Learned](https://ine.com/blog/aws-october-2025-outage-multi-region-and-cloud-lessons-learned)
+- [Red94: AWS outage exposed dangerous over-reliance on cloud giants](https://www.red94.net/news/52098-aws-outage-from-october-exposed-dangerous-over-reliance-on-cloud-giants-17m-user/)
 
 ---
 
@@ -172,6 +280,40 @@ This document provides detailed sources for all data points used in the Tech Lay
 **July 2022:** Faulty Enterprise Configuration Service deployment
 - [BleepingComputer: Major Microsoft 365 outage caused by Azure configuration change](https://www.bleepingcomputer.com/news/microsoft/major-microsoft-365-outage-caused-by-azure-configuration-change/)
 
+### 2025 Microsoft Layoffs
+
+**Total 2025:** 15,000+ employees
+- **May 2025:** ~6,000 employees (3% of workforce) - product and engineering
+- **July 2025:** ~9,000 employees (4% of workforce)
+- Also affected: LinkedIn, GitHub, Azure, Xbox, King (Candy Crush), ZeniMax
+- Part of $80 billion AI infrastructure investment strategy
+- [CNBC: Microsoft laying off about 6,000 people](https://www.cnbc.com/2025/05/13/microsoft-is-cutting-3percent-of-workers-across-the-software-company.html)
+- [CNBC: Microsoft laying off about 9,000 employees](https://www.cnbc.com/2025/07/02/microsoft-laying-off-about-9000-employees-in-latest-round-of-cuts.html)
+- [Windows Central: Microsoft's layoffs to top 9,000 people](https://www.windowscentral.com/microsoft/microsofts-layoffs-to-top-9000-people-impacting-around-4-percent-of-the-firms-entire-workforce-we-continue-to-implement-organizational-changes-necessary-to-best-position-the-company)
+
+### 2025 Azure/Microsoft 365 Outages
+
+**October 9, 2025:**
+- Azure Front Door metadata propagation error
+- [ThousandEyes: Microsoft Azure Front Door Outage Analysis](https://www.thousandeyes.com/blog/microsoft-azure-front-door-outage-analysis-october-29-2025)
+
+**October 29, 2025 - Major Outage:**
+- Duration: ~6 hours (noon ET to ~6 PM ET; full stability by 00:05 UTC Oct 30)
+- **30,000+ outage reports within first hour**
+- Root cause: Inadvertent tenant configuration change in Azure Front Door
+- Protection mechanisms failed due to software bug
+- Affected: Microsoft 365, Outlook, Teams, Xbox Live, Copilot, Minecraft, Power Apps, Entra, Purview, Defender
+- Also affected: Costco, Starbucks, Alaska Airlines
+- [CNBC: Microsoft hit with Azure, 365 outage](https://www.cnbc.com/2025/10/29/microsoft-hit-with-azure-365-outage-ahead-of-quarterly-earnings.html)
+- [TechCrunch: Microsoft Azure is down, affecting 365, Xbox, Minecraft](https://techcrunch.com/2025/10/29/microsoft-azure-is-down-affecting-365-xbox-minecraft-and-others/)
+- [ThousandEyes: Microsoft Azure Front Door Outage Analysis - October 29, 2025](https://www.thousandeyes.com/blog/microsoft-azure-front-door-outage-analysis-october-29-2025)
+- [Sangfor: Microsoft Azure Outage Disrupts Global Services](https://www.sangfor.com/blog/cloud-and-infrastructure/microsoft-azure-outage-oct-2025)
+
+**December 8, 2025:**
+- Azure Government ARM failures (11:04-14:13 EST)
+- Affected Azure Portal, REST APIs, PowerShell, CLI in Government regions
+- [Azure Status History](https://azure.status.microsoft/en-us/status/history/)
+
 **Status Pages:**
 - [Azure Status](https://azure.status.microsoft/en-us/status)
 - [Microsoft Service Health](https://status.cloud.microsoft/)
@@ -182,20 +324,29 @@ This document provides detailed sources for all data points used in the Tech Lay
 
 ### Total Tech Layoffs by Year (from [Layoffs.fyi](https://layoffs.fyi/))
 
-| Year | Employees Laid Off | Companies |
-|------|-------------------|-----------|
-| 2022 | 122,549 | 257 |
-| 2023 | 264,320 | 1,193 |
-| 2024 | 152,922 | 551 |
-| 2025 | 165,269* | 1,064* |
-| **Total** | **705,060+** | **3,065+** |
+| Year | Employees Laid Off | Companies | Notable |
+|------|-------------------|-----------|---------|
+| 2022 | 122,549 | 257 | Twitter 80%, Meta 13% |
+| 2023 | 264,320 | 1,193 | **Peak year** - Google 12K, Amazon 27K, MS 10K |
+| 2024 | 152,922 | 551 | Continued cuts across industry |
+| 2025 | 165,269 | 1,064 | MS 15K, Amazon 14K, renewed AI-driven cuts |
+| **Total** | **705,060+** | **3,065+** | 4 years of sustained layoffs |
 
-*2025 data as of January 2026
+*Data as of January 2026
+
+### 2025 Context
+- 2025 had 783 layoff events affecting 245,953 people (674 per day) per some trackers
+- Tech layoffs lower than 2023 peak but higher than 2024
+- Layoffs explicitly tied to AI investment strategies (Microsoft, Amazon, Google)
+- "Year of the hyperscaler outage" - major cloud providers all experienced significant failures
+- [Fast Company: Layoffs 2025 - more than 1 million job losses announced](https://www.fastcompany.com/91452265/mass-layoffs-2025-announcements-1-million-led-by-tech-government)
+- [Fortune: Tech layoffs 2025 - How Microsoft, Google, Meta are plotting for the AI era](https://fortune.com/2025/07/16/tech-layoffs-2025-how-microsoft-google-meta-amazon/)
+- [Salesforce Ben: How Bad Were Tech Layoffs in 2025](https://www.salesforceben.com/how-bad-were-tech-layoffs-in-2025-and-what-can-we-expect-next-year/)
 
 **Primary Sources:**
 - [Layoffs.fyi - Tech Layoff Tracker](https://layoffs.fyi/) - Primary industry database by Roger Lee
+- [TechCrunch: A comprehensive list of 2025 tech layoffs](https://techcrunch.com/2025/12/22/tech-layoffs-2025-list/)
 - [Crunchbase: Tech Layoffs Tracker](https://news.crunchbase.com/startups/tech-layoffs/)
-- [TechCrunch: A comprehensive archive of tech layoffs](https://techcrunch.com/2024/05/01/a-comprehensive-archive-of-2023-tech-layoffs/)
 - [TrueUp: Layoffs Tracker](https://www.trueup.io/layoffs)
 - [Statista: Tech sector layoffs statistics](https://www.statista.com/topics/10370/tech-sector-layoffs/)
 

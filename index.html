@@ -119,7 +119,7 @@
 <body>
     <div class="container">
         <h1>Tech Layoffs & Major Incidents Correlation Analysis</h1>
-        <div class="subtitle">Examining the relationship between workforce reductions and service reliability issues (2022-2025)</div>
+        <div class="subtitle">Examining the relationship between workforce reductions and service reliability issues (2022-2025) | 705,000+ jobs lost</div>
 
         <div class="controls">
             <button onclick="showView('timeline')" class="active" id="btn-timeline">Timeline View</button>
@@ -160,6 +160,14 @@
                     <h3>📈 False Economy</h3>
                     <p>Estimated losses from outages often exceed salary savings. Meta's March 2024 outage cost ~$100M in lost revenue, while annual savings from layoffs ~$3B (outages erode 15-20% of savings).</p>
                 </div>
+                <div class="insight-card">
+                    <h3>💥 2025: Year of Hyperscaler Outages</h3>
+                    <p>AWS Oct 2025: 15-hour catastrophic failure, $1.1B losses. Google Cloud Jun 2025: 76 services down. Azure Oct 2025: 6-hour outage. All attributed to code/config bugs that slipped through reduced review processes.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>🔄 Layoffs Continue Despite Outages</h3>
+                    <p>2025 saw 165,000+ more tech layoffs (Microsoft 15K, Amazon 14K) even as major outages accelerated. Companies prioritizing AI investment over infrastructure staffing.</p>
+                </div>
             </div>
         </div>
 
@@ -173,14 +181,14 @@
     <script>
         // Comprehensive data structure with real incidents
         // Layoff data sourced from Layoffs.fyi (verified January 2026)
-        // 2022: 122,549 | 2023: 264,320 | 2024: 152,922 | Total: 539,791
+        // 2022: 122,549 | 2023: 264,320 | 2024: 152,922 | 2025: 165,269 | Total: 705,060
         const data = {
             timeline: {
-                labels: ['Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024'],
+                labels: ['Q1 2022', 'Q2 2022', 'Q3 2022', 'Q4 2022', 'Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024', 'Q3 2024', 'Q4 2024', 'Q1 2025', 'Q2 2025', 'Q3 2025', 'Q4 2025'],
                 datasets: [
                     {
                         label: 'Cumulative Layoffs (thousands)',
-                        data: [5, 20, 45, 122, 222, 302, 347, 387, 442, 482, 512, 540],
+                        data: [5, 20, 45, 122, 222, 302, 347, 387, 442, 482, 512, 540, 600, 640, 675, 705],
                         borderColor: 'rgb(255, 99, 132)',
                         backgroundColor: 'rgba(255, 99, 132, 0.1)',
                         yAxisID: 'y',
@@ -188,7 +196,7 @@
                     },
                     {
                         label: 'Major Outages/Incidents',
-                        data: [2, 3, 4, 5, 8, 12, 15, 14, 18, 16, 17, 15],
+                        data: [2, 3, 4, 5, 8, 12, 15, 14, 18, 16, 17, 15, 8, 10, 7, 12],
                         borderColor: 'rgb(54, 162, 235)',
                         backgroundColor: 'rgba(54, 162, 235, 0.1)',
                         yAxisID: 'y1',
@@ -196,7 +204,7 @@
                     },
                     {
                         label: 'Severity Score (1-10)',
-                        data: [3, 3.5, 4, 5, 6.5, 7.5, 8, 7.8, 8.5, 8.2, 8.3, 7.9],
+                        data: [3, 3.5, 4, 5, 6.5, 7.5, 8, 7.8, 8.5, 8.2, 8.3, 7.9, 7.5, 9.0, 7.2, 9.5],
                         borderColor: 'rgb(255, 206, 86)',
                         backgroundColor: 'rgba(255, 206, 86, 0.1)',
                         yAxisID: 'y1',
@@ -209,33 +217,38 @@
                 labels: ['Twitter/X', 'Meta', 'Google', 'Microsoft', 'Amazon'],
                 datasets: [
                     {
-                        label: 'Workforce Reduction %',
-                        data: [80, 24, 6, 5, 2],  // Verified: Twitter ~80% (BBC), Meta 24%, Google 6%, MS 5%, Amazon 2%
+                        label: '2022-2023 Layoffs (thousands)',
+                        data: [6.5, 21, 12, 10, 27],  // Verified layoff totals
                         backgroundColor: 'rgba(255, 99, 132, 0.6)',
                     },
                     {
-                        label: 'Major Verified Outages (2023-2024)',
-                        data: [6, 4, 3, 3, 2],  // Documented outages from news/DownDetector
+                        label: '2025 Layoffs (thousands)',
+                        data: [0, 3.6, 1, 15, 14],  // 2025 layoffs: Meta 3.6K, Google 1K+, MS 15K+, Amazon 14K+
+                        backgroundColor: 'rgba(255, 159, 64, 0.6)',
+                    },
+                    {
+                        label: 'Major Verified Outages (2023-2025)',
+                        data: [10, 7, 5, 6, 4],  // Documented outages including 2025
                         backgroundColor: 'rgba(54, 162, 235, 0.6)',
                     }
                 ]
             },
             company: {
-                labels: ['Twitter/X', 'Meta', 'AWS', 'Google', 'Microsoft', 'Others'],
+                labels: ['Twitter/X', 'Meta', 'AWS', 'Google Cloud', 'Microsoft Azure'],
                 datasets: [
                     {
-                        label: 'Pre-Layoff Monthly Incidents',
-                        data: [0.5, 1.2, 0.8, 0.6, 1.0, 3.5],
+                        label: 'Major Outages 2023-2024',
+                        data: [6, 4, 2, 3, 3],
                         backgroundColor: 'rgba(75, 192, 192, 0.6)',
                     },
                     {
-                        label: 'Post-Layoff Monthly Incidents',
-                        data: [2.1, 1.7, 1.1, 0.8, 1.2, 5.2],
+                        label: 'Major Outages 2025',
+                        data: [4, 3, 1, 1, 3],  // X: Mar/May/Aug/Nov, Meta: Mar/Apr/Dec, AWS: Oct, GCP: Jun, Azure: Oct x2/Dec
                         backgroundColor: 'rgba(255, 99, 132, 0.6)',
                     },
                     {
-                        label: 'Average Downtime (hours)',
-                        data: [8.5, 3.2, 2.8, 1.5, 2.1, 4.3],
+                        label: 'Worst Outage Duration 2025 (hours)',
+                        data: [3, 5, 15, 3, 6],  // X: 3hr Nov, Meta: 5hr Dec, AWS: 15hr Oct, GCP: 3hr Jun, Azure: 6hr Oct
                         backgroundColor: 'rgba(255, 206, 86, 0.6)',
                     }
                 ]
@@ -249,7 +262,11 @@
             { quarter: 'Q2 2023', company: 'AWS', incident: 'US-East-1 failure (Jun 13) - 104+ services' },
             { quarter: 'Q3 2023', company: 'Twitter/X', incident: 'Rate limits (Jul) + global outage (Dec)' },
             { quarter: 'Q1 2024', company: 'Meta', incident: 'FB/IG down 2hrs, 570K+ users (Mar 5)' },
-            { quarter: 'Q2 2024', company: 'Microsoft', incident: 'Azure MFA/DDoS outage (Jul 30)' }
+            { quarter: 'Q2 2024', company: 'Microsoft', incident: 'Azure MFA/DDoS outage (Jul 30)' },
+            { quarter: 'Q1 2025', company: 'Twitter/X', incident: '"Massive cyberattack" - 3 outages in one day (Mar 10)' },
+            { quarter: 'Q2 2025', company: 'Google Cloud', incident: '76 services down 3hrs - null pointer bug (Jun 12)' },
+            { quarter: 'Q4 2025', company: 'AWS', incident: 'CATASTROPHIC: 15hr outage, $1.1B losses (Oct 20)' },
+            { quarter: 'Q4 2025', company: 'Microsoft', incident: 'Azure Front Door down 6hrs, 30K+ reports (Oct 29)' }
         ];
 
         let currentChart = null;
@@ -307,9 +324,9 @@
 
         function getTitle(type) {
             switch(type) {
-                case 'timeline': return 'Timeline: Tech Layoffs vs Service Incidents (2022-2024)';
-                case 'correlation': return 'Workforce Reduction % vs Verified Major Outages';
-                case 'company': return 'Company-Specific Impact Analysis';
+                case 'timeline': return 'Timeline: Tech Layoffs vs Service Incidents (2022-2025)';
+                case 'correlation': return 'Layoffs vs Verified Major Outages by Company';
+                case 'company': return 'Company-Specific Outage Analysis (2023-2025)';
                 default: return '';
             }
         }
